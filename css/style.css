@@ -135,4 +135,41 @@ html {
 .header__main-menu li a {
   text-decoration: none;
 }
+
+.section-banner .banner {
+  background-color: #d6effa;
+  padding: 55px;
+  border-radius: 24px;
+  position: relative;
+}
+
+.section-banner .banner h1 {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 36px;
+  margin: 0;
+}
+
+.section-banner .banner h1 b {
+  font-family: 'Muli Black';
+}
+
+.section-banner .banner__search {
+  margin-top: 24px;
+}
+
+.section-banner .banner__search .search {
+  width: 276px;
+}
+
+.section-banner .banner__search .search__input {
+  height: 34px;
+  background-color: #fff;
+}
+
+.section-banner .banner img {
+  position: absolute;
+  bottom: -44px;
+  right: -24px;
+}
 /*# sourceMappingURL=style.css.map */

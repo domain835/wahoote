@@ -124,3 +124,43 @@ body {
     }
   }
 }
+
+.section-banner {
+
+  .banner {
+    background-color: #d6effa;
+    padding: 55px;
+    border-radius: 24px;
+    position: relative;
+
+    h1 {
+      font-size: 25px;
+      font-weight: normal;
+      line-height: 36px;
+      margin: 0;
+
+      b {
+        font-family: 'Muli Black';
+      }
+    }
+
+    &__search {
+      margin-top: 24px;
+
+      .search {
+        width: 276px;
+
+        &__input {
+          height: 34px;
+          background-color: #fff;
+        }
+      }
+    }
+
+    img {
+      position: absolute;
+      bottom: -44px;
+      right: -24px;
+    }
+  }
+}
