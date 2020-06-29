@@ -1,0 +1,138 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+  font-size: 10px;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__nav-menu span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 30px 80px;
+  max-width: 960px;
+  margin: auto;
+}
+
+.search {
+  position: relative;
+  padding: 0;
+  width: 251px;
+}
+
+.search__input {
+  border: none;
+  background-color: #f6f6f6;
+  border-radius: 12px;
+  width: 100%;
+  padding-left: 54px;
+}
+
+.search__input::-webkit-input-placeholder {
+  color: #ababab;
+}
+
+.search__input:-ms-input-placeholder {
+  color: #ababab;
+}
+
+.search__input::-ms-input-placeholder {
+  color: #ababab;
+}
+
+.search__input::placeholder {
+  color: #ababab;
+}
+
+.search__input:focus {
+  outline: none;
+}
+
+.search__button {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 14px;
+  border: none;
+  background: none;
+  color: #ff6b08;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.header .search__input {
+  height: 28px;
+}
+
+.header__sell-button {
+  background-color: #ff6b08;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.header__user {
+  display: inherit;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__user .avatar {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.header__user span {
+  font-size: 7.5px;
+  color: #3a506b;
+  margin-top: 6px;
+}
+
+.header__main-menu {
+  font-size: 12px;
+  font-weight: bold;
+  list-style: none;
+  display: inherit;
+}
+
+.header__main-menu li:not(:first-child) {
+  margin-left: 25px;
+}
+
+.header__main-menu li a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
