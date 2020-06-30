@@ -259,4 +259,133 @@ html {
   color: #ff6600;
   font-size: 7.5px;
 }
+
+h2 {
+  font-size: 27.5px;
+  font-weight: bolder;
+}
+
+.section-discover .discover-menu {
+  list-style: none;
+  font-size: 12.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 31px;
+}
+
+.section-discover .discover-menu__item {
+  padding-bottom: 10px;
+}
+
+.section-discover .discover-menu__item:not(:first-child) {
+  margin-left: 26px;
+}
+
+.section-discover .discover-menu__item a {
+  text-decoration: none;
+  color: #ababab;
+  font-weight: bold;
+}
+
+.section-discover .discover-menu__item.active {
+  background: url(/images/menu-underline.png) no-repeat;
+  background-position: bottom;
+}
+
+.section-discover .discover-menu__item.active a {
+  color: #000;
+  position: relative;
+}
+
+.section-discover .discover {
+  list-style: none;
+  margin-top: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-discover .discover__item {
+  width: 124px;
+}
+
+.section-discover .discover__item .preview {
+  background-color: #ffe8d9;
+  border-radius: 8px;
+  padding: 108px 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.section-discover .discover__item .preview__image {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.section-discover .discover__item .preview__name {
+  font-size: 13px;
+  font-weight: bold;
+  color: #000;
+}
+
+.section-discover .discover__item .preview__price {
+  font-size: 11px;
+  color: #ababab;
+  margin-top: 8px;
+}
+
+.section-discover .discover__item .preview__like {
+  width: 20px;
+  height: 20px;
+  background: url(/images/discover-icons.png);
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  bottom: 16px;
+}
+
+.section-discover .discover__item .buttons-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 22px;
+}
+
+.section-discover .discover__item .buttons-panel .settings {
+  display: block;
+  height: 18px;
+  width: 18px;
+  background: url(/images/discover-icons.png);
+  background-position-x: -34px;
+}
+
+.section-discover .discover__item .buttons-panel .buy-now {
+  color: #fff;
+  background-color: #041d39;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 10.5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=style.css.map */

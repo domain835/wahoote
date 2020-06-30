@@ -245,3 +245,117 @@ body {
     }
   }
 }
+
+h2 {
+  font-size: 27.5px;
+  font-weight: bolder;
+}
+
+.section-discover {
+
+  .discover-menu {
+    list-style: none;
+    font-size: 12.5px;
+    display: flex;
+    margin-top: 31px;
+
+    &__item {
+      padding-bottom: 10px;
+      
+      &:not(:first-child) {
+        margin-left: 26px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #ababab;
+        font-weight: bold;
+      }
+
+      &.active {
+        background: url(/images/menu-underline.png) no-repeat;
+        background-position: bottom;
+        
+        a {
+          color: #000;
+          position: relative;
+        }
+      }
+    }
+  }
+
+  .discover {
+    list-style: none;
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+      width: 124px;
+
+      .preview {
+        background-color: #ffe8d9;
+        border-radius: 8px;
+        padding: 108px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        &__image {
+          position: absolute;
+          top: -18px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        &__name {
+          font-size: 13px;
+          font-weight: bold;
+          color: #000;
+        }
+
+        &__price {
+          font-size: 11px;
+          color: #ababab;
+          margin-top: 8px;
+        }
+
+        &__like {
+          width: 20px;
+          height: 20px;
+          background: url(/images/discover-icons.png);
+          border: none;
+          cursor: pointer;
+          position: absolute;
+          right: 10px;
+          bottom: 16px;
+        }
+      }
+
+      .buttons-panel {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 22px;
+
+        .settings {
+          display: block;
+          height: 18px;
+          width: 18px;
+          background: url(/images/discover-icons.png);
+          background-position-x: -34px;
+        }
+  
+        .buy-now {
+          color: #fff;
+          background-color: #041d39;
+          padding: 8px 20px;
+          text-decoration: none;
+          font-size: 10.5px;
+          font-weight: bold;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
