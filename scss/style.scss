@@ -170,7 +170,7 @@ body {
   font-weight: bold;
 }
 
-.section-categories {
+.section-categories-services {
 
   .categories {
     padding: 30PX 25px;
@@ -193,7 +193,7 @@ body {
       .image {
         height: 52px;
         width: 100%;
-        background: url(/images/categories-sprite.png) no-repeat;
+        background: url(/images/categories-and-services-sprite.png) no-repeat;
 
         &.baby-and-child {
           background-position-x: 2px;
@@ -225,6 +225,39 @@ body {
 
         &.books-films-and-music {
           background-position-x: -459px;
+        }
+
+
+        &.hair-salon {
+          background-position-x: -531px;
+        }
+
+        &.plumber {
+          background-position-x: -597px;
+        }
+
+        &.floor-cleaner {
+          background-position-x: -660px;
+        }
+
+        &.dj {
+          background-position-x: -731px;
+        }
+
+        &.chef {
+          background-position-x: -806px;
+        }
+
+        &.car-repairs {
+          background-position-x: -877px;
+        }
+
+        &.spa {
+          background-position-x: -943px;
+        }
+
+        &.therapy-session {
+          background-position-x: -1009px;
         }
       }
 

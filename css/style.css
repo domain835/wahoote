@@ -178,7 +178,7 @@ html {
   font-weight: bold;
 }
 
-.section-categories .categories {
+.section-categories-services .categories {
   padding: 30PX 25px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -189,7 +189,7 @@ html {
   position: relative;
 }
 
-.section-categories .categories__item {
+.section-categories-services .categories__item {
   background-color: #f6f6f6;
   padding: 15px;
   border-radius: 14px;
@@ -207,51 +207,83 @@ html {
   width: 80px;
 }
 
-.section-categories .categories__item .image {
+.section-categories-services .categories__item .image {
   height: 52px;
   width: 100%;
-  background: url(/images/categories-sprite.png) no-repeat;
+  background: url(/images/categories-and-services-sprite.png) no-repeat;
 }
 
-.section-categories .categories__item .image.baby-and-child {
+.section-categories-services .categories__item .image.baby-and-child {
   background-position-x: 2px;
 }
 
-.section-categories .categories__item .image.fashion-and-accessories {
+.section-categories-services .categories__item .image.fashion-and-accessories {
   background-position-x: -54px;
 }
 
-.section-categories .categories__item .image.home-and-garden {
+.section-categories-services .categories__item .image.home-and-garden {
   background-position-x: -104px;
 }
 
-.section-categories .categories__item .image.sports-and-leisure {
+.section-categories-services .categories__item .image.sports-and-leisure {
   background-position-x: -166px;
 }
 
-.section-categories .categories__item .image.games-and-consoless {
+.section-categories-services .categories__item .image.games-and-consoless {
   background-position-x: -240px;
 }
 
-.section-categories .categories__item .image.home-appliances {
+.section-categories-services .categories__item .image.home-appliances {
   background-position-x: -314px;
 }
 
-.section-categories .categories__item .image.property {
+.section-categories-services .categories__item .image.property {
   background-position-x: -386px;
 }
 
-.section-categories .categories__item .image.books-films-and-music {
+.section-categories-services .categories__item .image.books-films-and-music {
   background-position-x: -459px;
 }
 
-.section-categories .categories__item span {
+.section-categories-services .categories__item .image.hair-salon {
+  background-position-x: -531px;
+}
+
+.section-categories-services .categories__item .image.plumber {
+  background-position-x: -597px;
+}
+
+.section-categories-services .categories__item .image.floor-cleaner {
+  background-position-x: -660px;
+}
+
+.section-categories-services .categories__item .image.dj {
+  background-position-x: -731px;
+}
+
+.section-categories-services .categories__item .image.chef {
+  background-position-x: -806px;
+}
+
+.section-categories-services .categories__item .image.car-repairs {
+  background-position-x: -877px;
+}
+
+.section-categories-services .categories__item .image.spa {
+  background-position-x: -943px;
+}
+
+.section-categories-services .categories__item .image.therapy-session {
+  background-position-x: -1009px;
+}
+
+.section-categories-services .categories__item span {
   display: inline-block;
   text-align: center;
   line-height: normal;
 }
 
-.section-categories .categories__load-more {
+.section-categories-services .categories__load-more {
   position: absolute;
   bottom: 0;
   right: 0;
