@@ -172,4 +172,91 @@ html {
   bottom: -44px;
   right: -24px;
 }
+
+.title-h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.section-categories .categories {
+  padding: 30PX 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.section-categories .categories__item {
+  background-color: #f6f6f6;
+  padding: 15px;
+  border-radius: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  font-size: 9px;
+  color: #000;
+  height: 106px;
+  width: 80px;
+}
+
+.section-categories .categories__item .image {
+  height: 52px;
+  width: 100%;
+  background: url(/images/categories-sprite.png) no-repeat;
+}
+
+.section-categories .categories__item .image.baby-and-child {
+  background-position-x: 2px;
+}
+
+.section-categories .categories__item .image.fashion-and-accessories {
+  background-position-x: -54px;
+}
+
+.section-categories .categories__item .image.home-and-garden {
+  background-position-x: -104px;
+}
+
+.section-categories .categories__item .image.sports-and-leisure {
+  background-position-x: -166px;
+}
+
+.section-categories .categories__item .image.games-and-consoless {
+  background-position-x: -240px;
+}
+
+.section-categories .categories__item .image.home-appliances {
+  background-position-x: -314px;
+}
+
+.section-categories .categories__item .image.property {
+  background-position-x: -386px;
+}
+
+.section-categories .categories__item .image.books-films-and-music {
+  background-position-x: -459px;
+}
+
+.section-categories .categories__item span {
+  display: inline-block;
+  text-align: center;
+  line-height: normal;
+}
+
+.section-categories .categories__load-more {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+  color: #ff6600;
+  font-size: 7.5px;
+}
 /*# sourceMappingURL=style.css.map */
