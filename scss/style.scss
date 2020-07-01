@@ -574,3 +574,41 @@ body {
     }
   }
 }
+
+.section-book-anywhere{
+  background-color: #d9ffec;
+  margin-top: 60px;
+
+  .book-anywhere {
+    padding: 10px 0;
+    position: relative;
+    height: 164px;
+
+    img {
+      position: absolute;
+      left: 0;
+      bottom: -30px;
+    }
+
+    &__title {
+      font-family: 'Muli ExtraBold';
+      font-size: 25px;
+      position: absolute;
+      left: 50%;
+      line-height: 34px;
+
+      b {
+        color: #ff6600;
+      }
+
+      i {
+        font-style: normal;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.footer {
+  pad: 44px 0;
+}

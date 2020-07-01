@@ -613,4 +613,42 @@ html {
   top: 420px;
   left: 121px;
 }
+
+.section-book-anywhere {
+  background-color: #d9ffec;
+  margin-top: 60px;
+}
+
+.section-book-anywhere .book-anywhere {
+  padding: 10px 0;
+  position: relative;
+  height: 164px;
+}
+
+.section-book-anywhere .book-anywhere img {
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+}
+
+.section-book-anywhere .book-anywhere__title {
+  font-family: 'Muli ExtraBold';
+  font-size: 25px;
+  position: absolute;
+  left: 50%;
+  line-height: 34px;
+}
+
+.section-book-anywhere .book-anywhere__title b {
+  color: #ff6600;
+}
+
+.section-book-anywhere .book-anywhere__title i {
+  font-style: normal;
+  font-size: 15px;
+}
+
+.footer {
+  pad: 44px 0;
+}
 /*# sourceMappingURL=style.css.map */
