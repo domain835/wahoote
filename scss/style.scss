@@ -210,7 +210,7 @@ body {
       .image {
         height: 52px;
         width: 100%;
-        background: url(/images/categories-and-services-sprite.png) no-repeat;
+        background: url(../images/categories-and-services-sprite.png) no-repeat;
 
         &.baby-and-child {
           background-position-x: 2px;
@@ -318,7 +318,7 @@ body {
       }
 
       &.active {
-        background: url(/images/menu-underline.png) no-repeat;
+        background: url(../images/menu-underline.png) no-repeat;
         background-position: bottom;
         
         a {
@@ -368,7 +368,7 @@ body {
         &__like {
           width: 20px;
           height: 20px;
-          background: url(/images/discover-icons.png);
+          background: url(../images/discover-icons.png);
           border: none;
           cursor: pointer;
           position: absolute;
@@ -387,7 +387,7 @@ body {
           display: block;
           height: 18px;
           width: 18px;
-          background: url(/images/discover-icons.png);
+          background: url(../images/discover-icons.png);
           background-position-x: -34px;
         }
   
@@ -480,7 +480,7 @@ body {
     .avatar-partner {
       width: 37px;
       height: 37px;
-      background: url(/images/partners-icons.png) no-repeat;
+      background: url(../images/partners-icons.png) no-repeat;
       position: absolute;
 
       &.item_0 {
