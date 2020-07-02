@@ -584,7 +584,7 @@ body {
     position: relative;
     height: 164px;
 
-    img {
+    &__img {
       position: absolute;
       left: 0;
       bottom: -30px;
@@ -605,10 +605,59 @@ body {
         font-style: normal;
         font-size: 15px;
       }
+
+      img {
+        display: inherit;
+      }
     }
   }
 }
 
 .footer {
-  pad: 44px 0;
+  padding: 60px 0 10px;
+  display: flex;
+  justify-content: space-between;
+
+  .socials {
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 8.8rem;
+    margin: 4rem 0 0 1.5rem;
+
+    a {
+      color: #000;
+    }
+  }
+
+  .footer-menu {
+    list-style: none;
+    display: flex;
+
+    &__item {
+      margin-left: 7.2rem;
+      text-align: right;
+
+      h5 {
+        font-size: 1.5rem;
+        color: #ff6b08;
+      }
+
+      ul {
+        list-style: none;
+        margin-top: 3rem;
+        line-height: 1.6rem;
+
+        .mail {
+          margin-bottom: 0.5rem;
+        }
+
+        a {
+          text-decoration: none;
+          color: #000;
+        }
+      }
+    }
+  }
 }

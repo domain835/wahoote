@@ -625,7 +625,7 @@ html {
   height: 164px;
 }
 
-.section-book-anywhere .book-anywhere img {
+.section-book-anywhere .book-anywhere__img {
   position: absolute;
   left: 0;
   bottom: -30px;
@@ -648,7 +648,66 @@ html {
   font-size: 15px;
 }
 
+.section-book-anywhere .book-anywhere__title img {
+  display: inherit;
+}
+
 .footer {
-  pad: 44px 0;
+  padding: 60px 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .socials {
+  list-style: none;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 8.8rem;
+  margin: 4rem 0 0 1.5rem;
+}
+
+.footer .socials a {
+  color: #000;
+}
+
+.footer .footer-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-menu__item {
+  margin-left: 7.2rem;
+  text-align: right;
+}
+
+.footer .footer-menu__item h5 {
+  font-size: 1.5rem;
+  color: #ff6b08;
+}
+
+.footer .footer-menu__item ul {
+  list-style: none;
+  margin-top: 3rem;
+  line-height: 1.6rem;
+}
+
+.footer .footer-menu__item ul .mail {
+  margin-bottom: 0.5rem;
+}
+
+.footer .footer-menu__item ul a {
+  text-decoration: none;
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
