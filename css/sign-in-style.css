@@ -1,0 +1,168 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Muli', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input, button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  background: #fff;
+  -webkit-box-shadow: black;
+          box-shadow: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.form {
+  width: 485px;
+  padding: 100px;
+  position: relative;
+}
+
+.form img {
+  display: block;
+  margin: 0 auto;
+  padding: 88px;
+}
+
+.form h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 47px;
+  color: #ff6600;
+  padding: 50px 0;
+}
+
+.form label {
+  display: block;
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.form label input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #b7b7b7;
+}
+
+.form label input::-webkit-input-placeholder {
+  color: #ababab;
+  font-size: 22px;
+}
+
+.form label input:-ms-input-placeholder {
+  color: #ababab;
+  font-size: 22px;
+}
+
+.form label input::-ms-input-placeholder {
+  color: #ababab;
+  font-size: 22px;
+}
+
+.form label input::placeholder {
+  color: #ababab;
+  font-size: 22px;
+}
+
+.form .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form .socials__item {
+  margin-right: 42px;
+}
+
+.form .socials__item a {
+  font-size: 30px;
+  color: #041d39;
+}
+
+.form .forgot-pass {
+  color: #041d39;
+  text-decoration: none;
+  font-size: 22px;
+  margin-top: 50px;
+  display: block;
+}
+
+.form .submit {
+  color: #fff;
+  background: url(/images/icons.png) no-repeat #ff6600;
+  background-position: center center;
+  border-radius: 9px;
+  padding: 27.5px;
+  position: absolute;
+  right: 100px;
+  bottom: 74px;
+  cursor: pointer;
+}
+
+.banner {
+  background: url(/images/sign-in-banner.png) no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  padding: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner .title {
+  color: #fff;
+}
+
+.banner .title h3 {
+  font-size: 47px;
+  font-weight: normal;
+}
+
+.banner .title h1 {
+  font-size: 75px;
+  font-weight: 900;
+}
+
+.banner .title h1 b {
+  color: #041d39;
+  display: block;
+  margin-top: 50px;
+  font-weight: 900;
+}
+/*# sourceMappingURL=sign-in-style.css.map */
