@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wahoote</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product-style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <a href="" class="header__logo">
+            <img src="images/logo.png" alt="">
+          </a>
+          <div class="header__nav-menu">
+            <img src="images/nav-menu.png" alt="">
+            <span>Categories</span>
+          </div>
+          <form class="header__search">
+            <fieldset class="search">
+              <input type="text" placeholder="Product and Services" class="search__input">
+              <button type="submit" class="search__button">
+                <i class="fa fa-search"></i>
+              </button>
+            </fieldset>
+          </form>
+          <button class="header__sell-button">Sell now</button>
+          <div class="header__user">
+            <img src="images/no-avatar.png" alt="" class="avatar">
+            <span class="status">Hi, Floyd!</span>
+          </div>
+          <ul class="header__main-menu">
+            <li>
+              <a href="">Contact</a>            
+            </li>
+            <li>
+              <a href="">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <ul class="breadcrumb">
+        <li class="breadcrumb__item">Home</li>
+        <li class="breadcrumb__item">Furniture</li>
+        <li class="breadcrumb__item">Sofa</li>
+      </ul>
+    </div>
+    
+    <section class="section-product">
+      <div class="container">
+        <div class="product">
+          <div class="product__gallery">
+            <div class="fotorama" data-nav="thumbs" data-width="100%" data-thumbborderwidth="3">
+              <img src="images/plumber-service.png">
+              <img src="/images/no-avatar.png">
+              <img src="/images/man.png">
+              <img src="/images/macBook-pro.png">
+            </div>
+          </div>
+          <div class="product__info">
+            <div class="rating">
+              <div class="rating__stars"></div>
+              <a href="#" class="rating__review">Reviews</a>
+            </div>
+            <h1 class="title">SOFA</h1>
+            <ul class="price">
+              <li class="price__item active">$699</li>
+              <li class="price__item">$899</li>
+            </ul>
+            <div class="count">
+              <button class="count__reduce">-</button>
+              <span>1</span>
+              <button class="count__increase">+</button>
+            </div>
+            <div class="actions">
+              <button class="actions__buy">BUY NOW</button>
+              <button class="actions__wish">ADD TO WISH LIST</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="social">
+            <img src="images/wahoote-tile.png" alt="" class="footer__img">
+            <ul class="socials">
+              <li class="social__item">
+                <a href="#">
+                  <i class="fa fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <ul class="footer-menu">
+            <li class="footer-menu__item">
+              <h5>Contact</h5>
+              <ul>
+                <li class="mail">info@wahoote.com</li>
+                <li>(+420)234 567 891</li>
+                <li>(+420)987 452 158</li>
+                <li>(+420)987 654 123</li>
+              </ul>
+            </li>
+            <li class="footer-menu__item">
+              <h5>About us</h5>
+              <ul>
+                <li>
+                  <a href="#">Services</a>
+                </li>
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="#">Buyer Protection</a>
+                </li>
+              </ul>
+            </li>
+            <li class="footer-menu__item">
+              <h5>Services</h5>
+              <ul>
+                <li>
+                  <a href="#">Services</a>
+                </li>
+                <li>
+                  <a href="#">For Partners</a>
+                </li>
+                <li>
+                  <a href="#">News & Press</a>
+                </li>
+                <li>
+                  <a href="#">Help Center</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html> 
