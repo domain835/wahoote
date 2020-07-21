@@ -1,0 +1,111 @@
+@import 'fonts.scss';
+
+html {
+  box-sizing: border-box;
+}
+
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+}
+
+button, input, textarea {
+  border: none;
+  outline: none;
+  resize: none;
+
+  &:disabled {
+    background: none;
+  }
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  position: relative;
+  font-family: "Muli";
+  color: #242021;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #041d39;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 160px;
+  margin: 0 auto;
+}
+
+.page-section {
+  text-align: center;
+  flex: 1;
+  padding: 50px 0 274px;
+}
+
+.title { 
+  color: #041d39;
+}
+
+.btn {
+  max-width: 278px;
+  min-height: 80px;
+  color: #FFF;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 32px;
+  width: 100%;
+  letter-spacing: 2px;
+
+  &.dark-blue {
+    background-color: #041d39;
+
+    &.light {
+      background: transparent;
+      color: #50A900;
+      border: 1px solid #50A900;
+      box-shadow: none;
+    }
+  }
+
+  &.thin {
+    font-size: 16px;
+    padding: 10px 30px;
+    min-height: 50px;
+  }
+
+  &.red {
+    
+    &.light {
+      background-color: #fff;
+      color: #DA3400;
+      border: 1px solid #DA3400;
+      box-shadow: none;
+    }
+  }
+}

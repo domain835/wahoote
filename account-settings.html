@@ -4,16 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Wahoote</title>
+    <title>Account Settings</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/product-style.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-
+    
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
   </head>
@@ -52,79 +48,55 @@
         </div>
       </div>
     </header>
-
-    <div class="container">
-      <ul class="breadcrumb">
-        <li class="breadcrumb__item">Home</li>
-        <li class="breadcrumb__item">Furniture</li>
-        <li class="breadcrumb__item">Sofa</li>
-      </ul>
-    </div>
-    
-    <section class="section-product">
-      <div class="container">
-        <div class="product">
-          <div class="product__gallery">
-            <div class="fotorama" data-nav="thumbs" data-width="100%" data-thumbborderwidth="3">
-              <img src="images/plumber-service.png">
-              <img src="/images/no-avatar.png">
-              <img src="/images/man.png">
-              <img src="/images/macBook-pro.png">
-            </div>
-          </div>
-          <div class="product__info">
-            <div class="rating">
-              <div class="rating__stars"></div>
-              <a href="#" class="rating__review">Reviews</a>
-            </div>
-            <h1 class="title">SOFA</h1>
-            <ul class="price">
-              <li class="price__item active">$699</li>
-              <li class="price__item">$899</li>
-            </ul>
-            <div class="count">
-              <button class="count__reduce">-</button>
-              <span>1</span>
-              <button class="count__increase">+</button>
-            </div>
-            <div class="actions">
-              <button class="actions__buy">BUY NOW</button>
-              <button class="actions__wish">ADD TO WISH LIST</button>
-            </div>
-          </div>
+    <section class="page-section profile-settings">
+      <div class="user">
+        <div class="user__avatar">
+          <img src="/images/elena-simon-avatar.png" alt="">
+          <button class="user__camera">
+            <i class="fa fa-camera"></i>
+          </button>
         </div>
+        <span class="user__name">Elena Simon</span>
+        <ul class="user__rating-list">
+          <li class="user__rating-item active">☆</li>
+          <li class="user__rating-item active">☆</li>
+          <li class="user__rating-item active">☆</li>
+          <li class="user__rating-item active">☆</li>
+          <li class="user__rating-item">☆</li>
+        </ul>
+        <spna class="user__since">SINCE 2016</spna>
       </div>
+      <h1 class="title">Profile</h1>
+      <form action="" class="profile-form">
+        <ul class="profile-form__list">
+          <li class="profile-form__item">
+            <label class="profile-form__label" for="">Name</label>
+            <input class="profile-form__input" type="text" placeholder="Elena Simon" disabled>
+            <button class="profile-form__edit">edit</button>
+          </li>
+          <li class="profile-form__item">
+            <label class="profile-form__label" for="">Address</label>
+            <input class="profile-form__input" type="text" placeholder="123 st. Ohio LA, abc abcd" disabled>
+            <button class="profile-form__edit">edit</button>
+          </li>
+          <li class="profile-form__item">
+            <label class="profile-form__label" for="">Phone</label>
+            <input class="profile-form__input" type="text" placeholder="+01 123 459 586" disabled>
+            <button class="profile-form__edit">edit</button>
+          </li>
+          <li class="profile-form__item">
+            <label class="profile-form__label" for="">Password</label>
+            <input class="profile-form__input" type="text" placeholder="************" disabled>
+            <button class="profile-form__edit">edit</button>
+          </li>
+        </ul>
+        <button class="btn dark-blue profile-form__button">UPDATE CHANGES</button>
+      </form>
+      <img class="home-flower" src="/images/home-flower.png" alt="">
+      <img class="human-sitting" src="/images/human-sitting.png" alt="">
     </section>
-    <section class="section-description-product">
+    <footer class="footer">
       <div class="container">
-        <div class="description-product">
-          <div class="description-product__item">
-            <h3 class="title">ITEM Description</h3>
-            <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-              diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-              aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-              justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-              takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum 
-              dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
-              eirmod tempor invidunt ut labore et dolore magna aliquyam 
-              erat.</p>
-          </div>
-          <div class="description-product__seller">
-            <div class="avatar">
-              <img src="" alt="">
-              <span class="name"></span>
-              <div class="rating">
-                <div class="rating__stars"></div>
-                <a href="#" class="rating__review">Reviews</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="container">
-        <div class="footer">
           <div class="social">
             <img src="images/wahoote-tile.png" alt="" class="footer__img">
             <ul class="socials">
@@ -193,10 +165,10 @@
               </ul>
             </li>
           </ul>
-        </div>
       </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html> 

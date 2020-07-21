@@ -40,12 +40,6 @@ button {
   }
 }
 
-.container {
-  padding: 30px 80px;
-  max-width: 960px;
-  margin: auto;
-}
-
 .search {
   position: relative;
   padding: 0;
@@ -586,7 +580,7 @@ button {
   }
 }
 
-.section-book-anywhere{
+.section-book-anywhere {
   background-color: #d9ffec;
   margin-top: 60px;
 
@@ -628,6 +622,7 @@ button {
   padding: 60px 0 10px;
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid #ababab;
 
   .socials {
     list-style: none;
@@ -670,5 +665,132 @@ button {
         }
       }
     }
+  }
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: center;
+
+  &__avatar {
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    border: 2px solid #ff0000;
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__camera {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #ff0000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -5px;
+    right: 16px;
+    font-size: 20px;
+    color: #041d39;
+  }
+
+  &__name {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #041d39;
+    margin-top: 20px;
+  }
+
+  &__rating-list {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  &__rating-item {
+    font-size: 24px;
+    color: #7a7a7a;
+
+    &.active:before {
+      content: "\2605";
+      position: absolute;
+      color: #041d39;
+    }
+  }
+
+  &__since {
+    font-size: 11px;
+    font-weight: bold;
+    color: #ff6600;
+    margin-top: 10px;
+  }
+}
+
+.profile-settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 50px;
+  }
+
+  .profile-form {
+    margin-top: 90px;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      position: relative;
+      margin-top: 50px;
+    }
+
+    &__label {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    &__input {
+      height: 40px;
+      margin-top: 10px;
+      font-size: 18px;
+      text-align: center;
+
+      &::placeholder {
+        color: #828e9c;
+      }
+    }
+
+    &__edit {
+      font-size: 18px;
+      color: #828e9c;
+      position: absolute;
+      right: 0;
+      bottom: 9px;
+    }
+
+    &__button {
+      margin-top: 100px;
+    }
+  }
+
+  .home-flower {
+    position: absolute;
+    left: 160px;
+    bottom: 274px;
+  }
+
+  .human-sitting {
+    position: absolute;
+    right: 160px;
+    top: 337px;
   }
 }
