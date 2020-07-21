@@ -7,10 +7,6 @@ html {
   font-size: 10px; 
 }
 
-body {
-  
-}
-
 *,*::after,*::before{
   box-sizing: inherit;
 }
@@ -27,16 +23,32 @@ button {
 }
 
 .header {
+  margin-top: 100px;
+
+ &__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+ }
 
   &__nav-menu {
+    display: flex;
+    align-items: center;
 
     span {
-      font-size: 12px;
+      font-size: 24px;
       font-weight: bold;
+      margin-left: 24px;
     }
+  }
+
+  &__categories-button {
+    height: 21px;
+    width: 39px;
+    border-top: 6px solid #ff6600;
+    border-bottom: 6px solid #ff6600;
   }
 }
 
