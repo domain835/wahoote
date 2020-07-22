@@ -355,7 +355,83 @@ button {
       width: 340px;
     }
   }
+
+  &__preview {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__column {
+
+    &:not(:first-child) {
+      margin-left: 95px;
+    }
+  }
+
+  &__gallery {
+    height: 388px;
+    width: 462px;
+    border: 1px solid #808080;
+  }
 }
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &__gallery {
+    width: 812px;
+    height: 688px;
+    border: 1px solid #707070;
+  }
+
+  &__rating {
+    display: flex;
+    align-items: center;
+  }
+
+  &__rating-list {
+    display: flex;
+  }
+
+  &__review-link {
+    color: #ff6600;
+    font-size: 10px;
+    margin-left: 28px;
+  }
+
+  &__title {
+    font-size: 27px;
+    white-space: nowrap;
+    margin-top: 20px;
+  }
+
+  &__price {
+    font-size: 15px;
+    font-weight: bold;
+    color: #041d39;
+    margin-top: 20px;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+  &__buy-button {
+    padding: 17px 23px;
+    font-size: 10px;
+  }
+
+  &__wish-button {
+    font-size: 6px;
+    padding: 14px 16px;
+  }
+}
+
+
 
 .section-banner {
 

@@ -81,13 +81,6 @@ body {
 
   &.dark-blue {
     background-color: #041d39;
-
-    &.light {
-      background: transparent;
-      color: #50A900;
-      border: 1px solid #50A900;
-      box-shadow: none;
-    }
   }
 
   &.thin {
@@ -103,5 +96,10 @@ body {
     padding: 14px 26px;
     border: none;
     cursor: pointer;
+  }
+
+  &.gray {
+    background-color: #f6f6f6;
+    color: #041d39;
   }
 }
