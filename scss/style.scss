@@ -127,6 +127,65 @@ button {
   }
 }
 
+.footer {
+  border-top: 1px solid #ababab;
+
+  &__inner {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+    
+  &__nav {
+    display: flex;
+  }
+
+  &__col-item {
+    margin-left: 138px;
+    text-align: right;
+  }
+
+  &__nav-title {
+    font-size: 30px;
+    color: #ff6b08;
+  }
+
+  &__nav-list {
+    margin-top: 3rem;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+
+    .mail {
+      margin-bottom: 0.5rem;
+    }
+
+      a {
+        color: #000;
+      }
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__banner {
+
+  }
+
+  &__list {
+    display: flex;
+    margin-top: 80px;
+  }
+
+  &__item {
+    font-size: 38px;
+    letter-spacing: 12px;
+  }
+}
+
 .section-banner {
 
   .banner {
@@ -611,55 +670,7 @@ button {
   }
 }
 
-.footer {
-  padding: 60px 0 10px;
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #ababab;
 
-  .socials {
-    list-style: none;
-    font-size: 2rem;
-    display: flex;
-    justify-content: space-between;
-    width: 8.8rem;
-    margin: 4rem 0 0 1.5rem;
-
-    a {
-      color: #000;
-    }
-  }
-
-  .footer-menu {
-    list-style: none;
-    display: flex;
-
-    &__item {
-      margin-left: 7.2rem;
-      text-align: right;
-
-      h5 {
-        font-size: 1.5rem;
-        color: #ff6b08;
-      }
-
-      ul {
-        list-style: none;
-        margin-top: 3rem;
-        line-height: 1.6rem;
-
-        .mail {
-          margin-bottom: 0.5rem;
-        }
-
-        a {
-          text-decoration: none;
-          color: #000;
-        }
-      }
-    }
-  }
-}
 
 .user {
   display: flex;

@@ -161,6 +161,76 @@ button {
   margin-left: 55px;
 }
 
+.footer {
+  border-top: 1px solid #ababab;
+}
+
+.footer__inner {
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__col-item {
+  margin-left: 138px;
+  text-align: right;
+}
+
+.footer__nav-title {
+  font-size: 30px;
+  color: #ff6b08;
+}
+
+.footer__nav-list {
+  margin-top: 3rem;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer__nav-list .mail {
+  margin-bottom: 0.5rem;
+}
+
+.footer__nav-list a {
+  color: #000;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+}
+
+.social__item {
+  font-size: 38px;
+  letter-spacing: 12px;
+}
+
 .section-banner .banner {
   background-color: #d6effa;
   padding: 55px;
@@ -671,66 +741,6 @@ button {
 
 .section-book-anywhere .book-anywhere__title img {
   display: inherit;
-}
-
-.footer {
-  padding: 60px 0 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-top: 1px solid #ababab;
-}
-
-.footer .socials {
-  list-style: none;
-  font-size: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 8.8rem;
-  margin: 4rem 0 0 1.5rem;
-}
-
-.footer .socials a {
-  color: #000;
-}
-
-.footer .footer-menu {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footer .footer-menu__item {
-  margin-left: 7.2rem;
-  text-align: right;
-}
-
-.footer .footer-menu__item h5 {
-  font-size: 1.5rem;
-  color: #ff6b08;
-}
-
-.footer .footer-menu__item ul {
-  list-style: none;
-  margin-top: 3rem;
-  line-height: 1.6rem;
-}
-
-.footer .footer-menu__item ul .mail {
-  margin-bottom: 0.5rem;
-}
-
-.footer .footer-menu__item ul a {
-  text-decoration: none;
-  color: #000;
 }
 
 .user {
