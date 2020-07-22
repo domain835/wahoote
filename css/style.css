@@ -337,6 +337,32 @@ button {
   font-size: 20px;
   margin-top: 12px;
   width: 100%;
+  color: #ababab;
+}
+
+.post-ad__form-group input::-webkit-input-placeholder, .post-ad__form-group textarea::-webkit-input-placeholder, .post-ad__form-group select::-webkit-input-placeholder {
+  color: #ababab;
+}
+
+.post-ad__form-group input:-ms-input-placeholder, .post-ad__form-group textarea:-ms-input-placeholder, .post-ad__form-group select:-ms-input-placeholder {
+  color: #ababab;
+}
+
+.post-ad__form-group input::-ms-input-placeholder, .post-ad__form-group textarea::-ms-input-placeholder, .post-ad__form-group select::-ms-input-placeholder {
+  color: #ababab;
+}
+
+.post-ad__form-group input::placeholder, .post-ad__form-group textarea::placeholder, .post-ad__form-group select::placeholder {
+  color: #ababab;
+}
+
+.post-ad__form-group select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url("/images/select-arrow.png");
+  background-position: right 20px center;
+  background-repeat: no-repeat;
 }
 
 .post-ad__form-group small {
@@ -345,6 +371,45 @@ button {
   bottom: 13px;
   color: #ababab;
   font-size: 15px;
+}
+
+.post-ad__form-group.shipping {
+  width: 138px;
+}
+
+.post-ad__form-group .upload-photo {
+  width: 100%;
+}
+
+.post-ad__form-group .upload-photo__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  position: absolute;
+  z-index: -10;
+}
+
+.post-ad__form-group .upload-photo__label {
+  border: 2px solid #ababab;
+  border-radius: 7px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  background-color: #f5f6fd;
+  padding: 6px;
+  margin-top: 12px;
 }
 
 .post-ad__price-wrapper {
@@ -357,13 +422,29 @@ button {
   width: 86px;
   font-size: 15px;
   padding-right: 10px;
+  padding-left: 10px;
   margin-right: 16px;
+  -webkit-box-sizing: unset;
+          box-sizing: unset;
 }
 
 .post-ad__button {
   position: absolute;
   bottom: -105px;
   right: 0;
+}
+
+.post-ad__location-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post-ad__location-wrapper .post-ad__form-group {
+  width: 340px;
 }
 
 .section-banner .banner {
