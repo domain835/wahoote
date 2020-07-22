@@ -25,13 +25,20 @@ button {
 .header {
   margin-top: 100px;
 
- &__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 100px;
- }
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+  }
+
+  &__categories-button {
+    height: 21px;
+    width: 39px;
+    border-top: 6px solid #ff6600;
+    border-bottom: 6px solid #ff6600;
+  }
 
   &__nav-menu {
     display: flex;
@@ -44,70 +51,48 @@ button {
     }
   }
 
-  &__categories-button {
-    height: 21px;
-    width: 39px;
-    border-top: 6px solid #ff6600;
-    border-bottom: 6px solid #ff6600;
+  &__search {
+    position: relative;
+    padding: 0;
+    width: 502px;
   }
-}
 
-.search {
-  position: relative;
-  padding: 0;
-  width: 251px;
-
-  &__input {
+  &__search-input {
     border: none;
     background-color: #f6f6f6;
-    border-radius: 12px;
+    border-radius: 24px;
     width: 100%;
-    padding-left: 54px;
+    padding-left: 66px;
+    height: 55px;
+    font-size: 20px;
 
     &::placeholder {
       color: #ababab;
     }
 
-    &:focus {
-      outline: none;
-    }
   }
 
-  &__button {
+  &__search-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 14px;
+    left: 26px;
     border: none;
     background: none;
     color: #ff6b08;
-    font-size: 12px;
+    font-size: 24px;
     cursor: pointer;
-  }
-}
-
-.header {
-
-  .search {
-
-    &__input {
-      height: 28px;
-    }
   }
 
   &__sell-button {
     background-color: #ff6b08;
-    border-radius: 6px;
+    border-radius: 14px;
     color:#fff;
-    font-size: 12px;
+    font-size: 24px;
     font-weight: bold;
-    padding: 8px 14px;
+    padding: 14px 26px;
     border: none;
     cursor: pointer;
-
-    &:focus {
-      outline: none;
-    }
   }
 
   &__user {
@@ -115,33 +100,29 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
 
-    .avatar {
-      width: fit-content;
-    }
+  &__user-avatar {
+    width: fit-content;
+  }
 
-    span {
-      font-size: 7.5px;
-      color: #3a506b;
-      margin-top: 6px;
-    }
+  &__user-greeting {
+    font-size: 15px;
+    color: #3a506b;
+    margin-top: 10px;
   }
 
   &__main-menu {
-    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__main-menu-item {
+    font-size: 24px;
     font-weight: bold;
-    list-style: none;
-    display: inherit;
 
-    li {
-
-      &:not(:first-child) {
-        margin-left: 25px;
-      }
-      
-      a {
-        text-decoration: none;
-      }
+    &:not(:first-child) {
+      margin-left: 55px;
     }
   }
 }
