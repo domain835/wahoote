@@ -1094,10 +1094,71 @@ button {
 }
 
 .profile-notifications {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1355px;
+  margin-top: 90px;
 
   &__item {
     width: 399px;
     height: 333px;
     background-color: #f5f6fd;
+    border-radius: 18px;
+    padding: 50px 30px;
+    text-align: left;
+    position: relative;
+    margin-top: 50px;
+    letter-spacing: 2px;
+
+    &.services {
+      margin: 50px auto 0;
+      background-color: #f5c4c4;
+
+      .profile-notifications__title {
+        color: #fff;
+      }
+
+      .profile-notifications__button {
+        background-color: #f5f6fd;
+        color: #f5c4c4;
+      }
+    }
+  }
+
+  &__title-item {
+    font-size: 42px;
+  }
+
+  &__title {
+    font-size: 21px;
+    font-weight: normal;
+    color: #ff6600;
+    margin-top: 10px;
+  }
+
+  &__description {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-top: 50px;
+  }
+
+  &__button {
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #f5c4c4;
+    border-radius: 4px;
+    padding: 13px 24px;
+    position: absolute;
+    bottom: 42px;
+    left: 30px;
+    color: #041d39;
+  }
+
+  &__image {
+    position: absolute;
+    right: -31px;
+    bottom: 21px;
   }
 }
