@@ -1385,7 +1385,7 @@ button {
   max-height: calc(100% - 60px);
 }
 
-.product-cards__statistics {
+.product-cards__footer {
   margin-top: 30px;
 }
 
@@ -1422,4 +1422,28 @@ button {
 
 .product-cards__plus {
   background: url("/images/product-card-plus-icon.png") no-repeat;
+}
+
+.product-cards__offer-button, .product-cards__buy-button {
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 12px 19px;
+  letter-spacing: 1px;
+}
+
+.product-cards__offer-button {
+  border: 1px solid #707070;
+}
+
+.product-cards__buy-button {
+  background-color: #f5c4c4;
+  padding: 13px 30px;
+}
+
+.product-cards__available-status {
+  font-size: 15px;
+  font-weight: 600px;
+  color: #22a27f;
+  margin-left: 26px;
 }

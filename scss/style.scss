@@ -1203,7 +1203,7 @@ button {
     max-height: calc(100% - 60px);
   }
 
-  &__statistics {
+  &__footer {
     margin-top: 30px;
   }
 
@@ -1240,5 +1240,29 @@ button {
 
   &__plus {
     background: url('/images/product-card-plus-icon.png') no-repeat;
+  }
+
+  &__offer-button, &__buy-button {
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 12px 19px;
+    letter-spacing: 1px;
+  }
+
+  &__offer-button {
+    border: 1px solid #707070;
+  }
+
+  &__buy-button {
+    background-color: #f5c4c4;
+    padding: 13px 30px;
+  }
+
+  &__available-status {
+    font-size: 15px;
+    font-weight: 600px;
+    color: #22a27f;
+    margin-left: 26px;
   }
 }
