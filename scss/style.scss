@@ -1205,6 +1205,20 @@ button {
 
   &__footer {
     margin-top: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__ad {
+    background: url('/images/product-card-ad-icon.png');
+  }
+
+  &__views {
+    background: url('/images/product-card-views-icon.png');
+  }
+
+  &__likes {
+    background: url('/images/product-card-likes-icon.png');
   }
 
   &__ad, &__views, &__likes {
@@ -1213,18 +1227,8 @@ button {
     color: #ff6600;
     display: inline-block;
     margin-right: 40px;
-  }
-
-  &__ad {
-    background: url('/images/product-card-ad-icon.png') no-repeat;
-  }
-
-  &__views {
-    background: url('/images/product-card-views-icon.png') no-repeat;
-  }
-
-  &__likes {
-    background: url('/images/product-card-likes-icon.png') no-repeat;
+    background-position: center left;
+    background-repeat: no-repeat;
   }
 
   &__minus, &__plus {
@@ -1264,5 +1268,15 @@ button {
     font-weight: 600px;
     color: #22a27f;
     margin-left: 26px;
+  }
+
+  &__like-button {
+    padding: 23px;
+    background: url('/images/heart-empty.png') no-repeat;
+    margin-left: 41px;
+
+    &.active {
+      background: url('/images/heart.png') no-repeat;
+    }
   }
 }

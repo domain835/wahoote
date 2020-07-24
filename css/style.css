@@ -1387,6 +1387,24 @@ button {
 
 .product-cards__footer {
   margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-cards__ad {
+  background: url("/images/product-card-ad-icon.png");
+}
+
+.product-cards__views {
+  background: url("/images/product-card-views-icon.png");
+}
+
+.product-cards__likes {
+  background: url("/images/product-card-likes-icon.png");
 }
 
 .product-cards__ad, .product-cards__views, .product-cards__likes {
@@ -1395,18 +1413,8 @@ button {
   color: #ff6600;
   display: inline-block;
   margin-right: 40px;
-}
-
-.product-cards__ad {
-  background: url("/images/product-card-ad-icon.png") no-repeat;
-}
-
-.product-cards__views {
-  background: url("/images/product-card-views-icon.png") no-repeat;
-}
-
-.product-cards__likes {
-  background: url("/images/product-card-likes-icon.png") no-repeat;
+  background-position: center left;
+  background-repeat: no-repeat;
 }
 
 .product-cards__minus, .product-cards__plus {
@@ -1446,4 +1454,14 @@ button {
   font-weight: 600px;
   color: #22a27f;
   margin-left: 26px;
+}
+
+.product-cards__like-button {
+  padding: 23px;
+  background: url("/images/heart-empty.png") no-repeat;
+  margin-left: 41px;
+}
+
+.product-cards__like-button.active {
+  background: url("/images/heart.png") no-repeat;
 }
