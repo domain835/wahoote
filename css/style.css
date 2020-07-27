@@ -1465,3 +1465,101 @@ button {
 .product-cards__like-button.active {
   background: url("/images/heart.png") no-repeat;
 }
+
+.cart-and-delivery {
+  margin-top: 100px;
+}
+
+.cart-and-delivery__column-left {
+  width: calc(100% - 670px);
+  border-right: 1px solid transparent;
+  -o-border-image: linear-gradient(#fff, #ff6161, #fff);
+     border-image: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(#ff6161), to(#fff));
+     border-image: linear-gradient(#fff, #ff6161, #fff);
+  border-image-slice: 1;
+}
+
+.cart-and-delivery__title {
+  font-size: 31px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.cart-and-delivery__number-of-items {
+  font-size: 28px;
+  color: #ababab;
+  margin-top: 28px;
+  display: inline-block;
+}
+
+.cart-and-delivery__items-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -20px;
+}
+
+.cart-and-delivery__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 399px;
+  text-align: left;
+  margin: 100px 20px 0;
+}
+
+.cart-and-delivery__item-card {
+  height: 333px;
+  background-color: #f5f6fd;
+  border-radius: 18px;
+  padding: 50px 30px;
+  text-align: left;
+  position: relative;
+  letter-spacing: 2px;
+}
+
+.cart-and-delivery__item-card.cream {
+  background-color: #ffe8d9;
+}
+
+.cart-and-delivery__item-card.turquoise {
+  background-color: #d5ede7;
+}
+
+.cart-and-delivery__item-image {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  max-width: 333px;
+}
+
+.cart-and-delivery__minus {
+  padding: 16px;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  background: url(/images/product-card-minus-icon.png) no-repeat;
+}
+
+.cart-and-delivery__item-title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.cart-and-delivery__item-price {
+  font-size: 28px;
+  font-weight: 500;
+  color: #ababab;
+  margin-top: 40px;
+  display: inline-block;
+}
