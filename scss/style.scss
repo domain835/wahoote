@@ -1284,6 +1284,10 @@ button {
 .cart-and-delivery {
   margin-top: 100px;
 
+  &__inner {
+    display: flex;
+  }
+
   &__column-left {
     width: calc(100% - 670px);
     border-right: 1px solid transparent;
@@ -1369,5 +1373,122 @@ button {
     color: #ababab;
     margin-top: 40px;
     display: inline-block;
+  }
+
+  &__column-right {
+    margin: 100px 0 0 90px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+  }
+
+  &__shipping {
+    background-color: #f2f2f2;
+    border-radius: 26px;
+    padding: 40px;
+    text-align: left;
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  &__shipping-title {
+    font-size: 25px;
+    letter-spacing: 2px;
+
+    &.checked {
+
+      &::after {
+        content: url('/images/icon-checked.png');
+        margin-left: 14px;
+      }
+    }
+  }
+
+  &__shipping-item {
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    height: 26px;
+
+    &.e-mail, &.name, &.location, &.phone, &.card {
+      background: url('/images/icons-shipping.png') no-repeat;
+    }
+
+    &.name {
+      background-position: 0 -33px;
+    }
+
+    &.location {
+      background-position: 0 -71px;
+    }
+
+    &.phone {
+      background-position: 0 -110px;
+    }
+
+    &.card {
+      background-position: 0 -142px;
+    }
+  }
+
+  &__shipping-edit-button {
+    background: url('/images/pen-edit.png');
+    height: 37px;
+    width: 37px;
+    position: absolute;
+    top: 34px;
+    right: 40px;
+  }
+
+  &__section-total {
+    margin-top: 160px;
+    letter-spacing: 2px;
+    padding: 0 75px;
+    width: 100%;
+  }
+
+  &__total-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    &.total {
+      margin-top: 100px;
+    }
+  }
+
+  &__total-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+
+    &.total {
+      font-size: 25px;
+      font-weight: 800;
+    }
+  }
+
+  &__total-price {
+    color: #ababab;
+    
+    &.total {
+      font-size: 25px;
+      font-weight: 800;
+      color: #000;
+    }
+  }
+
+  &__place-order-button {
+    font-size: 25px !important;
+    border-radius: 16px !important;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 110px;
+    padding: 30px 40px !important;
   }
 }
