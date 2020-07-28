@@ -1656,5 +1656,72 @@ button {
     right: 20px;
     bottom: 32px;
   }
+
+  &__buttons {
+    
+  }
+
+  &__book-button {
+    color: #fff;
+    background-color: #041d39;
+    padding:20px;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 9px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 44px;
+  }
+}
+
+.register-banner {
+  padding: 100px 0 100px 688px;
+  width: 100%;
+  background-color: #f5f6fd;
+  background-image: url('/images/cleaning-man.png');
+  background-repeat: no-repeat;
+  background-position: 134px center;
+  border-radius: 50px;
+  margin-top: 200px;
+  text-align: left;
+
+  &__slogan {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  &__orange-text {
+    font-size: 62px;
+    color: #ff6600;
+    margin-top: 20px;
+    display: inline-block;
+  }
+
+  &__thin-text {
+    font-size: 30px;
+    font-weight: 300;
+    color: #041d39;
+    font-style: normal;
+    margin-top: 20px;
+  }
+
+  &__logo {
+    background: url('/images/logo-register-banner.png') no-repeat;
+    background-position: right bottom;
+    display: inline-block;
+    height: 49px;
+    width: 199px;
+    position: relative;
+    top: 14px;
+  }
+
+  &__button {
+    padding: 17px 26px;
+    border: 2px solid #ff6600;
+    font-size: 20px;
+    font-weight: bold;
+    color: #041d39;
+    margin-top: 55px;
+  }
 }
 
