@@ -1699,3 +1699,60 @@ button {
   margin-top: 110px;
   padding: 30px 40px !important;
 }
+
+.services-search {
+  text-align: left;
+}
+
+.services-search__title {
+  font-size: 55px;
+}
+
+.services-search__number-ads {
+  font-size: 25px;
+  color: #ababab;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.services-search__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.services-search__input {
+  height: 96px;
+  width: 518px;
+  background-color: #f5f6fd;
+  padding-left: 79px;
+  background-image: url("/images/icon-search.png");
+  background-repeat: no-repeat;
+  background-position: 29px center;
+  border-right: 1px solid #737477;
+  font-size: 20px;
+}
+
+.services-search__select {
+  height: 96px;
+  width: 476px;
+  background-color: #f5f6fd;
+  border-left: 1px solid #828286;
+  padding-left: 82px;
+  font-size: 20px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url("/images/select-arrow-thin.png");
+  background-position: right 64px center;
+  background-repeat: no-repeat;
+}
+
+.services-search__button {
+  height: 96px;
+  width: 221px;
+  background-color: #ff6600;
+  color: #fff;
+  font-size: 25px;
+}
