@@ -1700,6 +1700,14 @@ button {
   padding: 30px 40px !important;
 }
 
+.services__title {
+  text-transform: uppercase;
+  font-size: 55px;
+  font-weight: 800;
+  text-align: left;
+  margin-top: 170px;
+}
+
 .services-search {
   text-align: left;
 }
@@ -1755,4 +1763,117 @@ button {
   background-color: #ff6600;
   color: #fff;
   font-size: 25px;
+}
+
+.banner-slider {
+  background-color: #ffc019;
+  height: 830px;
+  margin-top: 160px;
+}
+
+.small-left-menu {
+  list-style: none;
+  font-size: 12.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.small-left-menu__item {
+  margin-right: 53px;
+}
+
+.small-left-menu__link {
+  color: #ababab;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 18px;
+}
+
+.small-left-menu__link_active {
+  background: url(../images/small-left-menu-underline.png) no-repeat;
+  background-position: bottom;
+  color: #000;
+}
+
+.products-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -40px;
+}
+
+.products-list__item {
+  width: 20%;
+  margin-top: 134px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.products-list__inner {
+  width: 247px;
+}
+
+.products-list__preview {
+  border-radius: 22px;
+  padding: 216px 20px 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  text-align: left;
+}
+
+.products-list__preview_cream {
+  background-color: #ffe8d9;
+}
+
+.products-list__preview_metallic {
+  background-color: #eceef0;
+}
+
+.products-list__preview_turquoise {
+  background-color: #def1ec;
+}
+
+.products-list__preview-image {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.products-list__preview-title {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.products-list__preview-price {
+  font-size: 22px;
+  color: #ababab;
+  margin-top: 14px;
+}
+
+.products-list__preview-like {
+  width: 41px;
+  height: 41px;
+  background: url(../images/heart-empty-product.png);
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  bottom: 32px;
 }
