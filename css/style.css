@@ -1940,3 +1940,115 @@ button {
   color: #041d39;
   margin-top: 55px;
 }
+
+.breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.breadcrumb__link {
+  font-size: 20px;
+}
+
+.product__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product__column:not(:first-child) {
+  padding-left: 96px;
+}
+
+.product__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.product__info-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product__info-rating-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product__info-rating-item {
+  font-size: 25px;
+}
+
+.product__info-rating-item_active:before {
+  content: "\2605";
+  position: absolute;
+  color: #041d39;
+}
+
+.product__info-review-link {
+  color: #ff6600;
+  font-size: 20px;
+  margin-left: 28px;
+}
+
+.product__info-title {
+  font-size: 50px;
+  white-space: nowrap;
+}
+
+.product__info-price {
+  font-size: 30px;
+  font-weight: bold;
+  color: #041d39;
+}
+
+.product__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product__buy-button {
+  font-size: 20px;
+  padding: 32px 47px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 9px;
+}
+
+.product__wish-button {
+  padding: 26px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.product__calendar {
+  width: 674px;
+  height: 401px;
+  background-color: #f6f6f6;
+  border-radius: 16px;
+}
