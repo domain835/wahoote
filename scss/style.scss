@@ -1741,13 +1741,24 @@ button {
 
   &__inner {
     display: flex;
+    margin-top: 56px;
   }
 
   &__column {
 
     &:not(:first-child) {
       padding-left: 96px;
+      width: 100%;
     }
+
+    &:first-child {
+      text-align: left;
+      min-width: 814px;
+    }
+  }
+
+  &__gallery {
+    box-shadow: 19px 0px 23px -21px rgba(0,0,0,0.38);
   }
 
   &__info {
@@ -1825,5 +1836,107 @@ button {
     height: 401px;
     background-color: #f6f6f6;
     border-radius: 16px;
+  }
+
+  &__description-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 190px;
+  }
+
+  &__description-text {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 90px;
+    line-height: 30px;
+    max-width: 700px;
+  }
+
+  &__user {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 47px;
+  }
+  
+  &__user-avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    position: relative;
+  }
+
+  &__user-avatar-img {
+    width: 100%;
+  }
+  
+  &__user-name {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #041d39;
+    margin-top: 20px;
+  }
+  
+  &__user-rating-list {
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+    min-width: 208px;
+    position: relative;
+  }
+  
+  &__user-rating-item {
+    font-size: 34px;
+    color: #7a7a7a;
+
+    &.active:before {
+      content: "\2605";
+      position: absolute;
+      color: #041d39;
+    }
+  }
+
+  &__appreciated {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 216px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  &__user-since {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  &__user-sales, &__user-purchases {
+    margin-top: 38px;
+    font-size: 20px;
+  }
+
+  &__user-purchases {
+    margin-top: 16px;
+  }
+
+  &__posted-time-and-report {
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+
+  &__report-link {
+    color: #ff6600;
+    margin-top: 18px;
+    text-decoration: underline;
   }
 }

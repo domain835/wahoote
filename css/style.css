@@ -1955,10 +1955,22 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 56px;
 }
 
 .product__column:not(:first-child) {
   padding-left: 96px;
+  width: 100%;
+}
+
+.product__column:first-child {
+  text-align: left;
+  min-width: 814px;
+}
+
+.product__gallery {
+  -webkit-box-shadow: 19px 0px 23px -21px rgba(0, 0, 0, 0.38);
+          box-shadow: 19px 0px 23px -21px rgba(0, 0, 0, 0.38);
 }
 
 .product__info {
@@ -2051,4 +2063,125 @@ button {
   height: 401px;
   background-color: #f6f6f6;
   border-radius: 16px;
+}
+
+.product__description-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 190px;
+}
+
+.product__description-text {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 90px;
+  line-height: 30px;
+  max-width: 700px;
+}
+
+.product__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-top: 47px;
+}
+
+.product__user-avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  position: relative;
+}
+
+.product__user-avatar-img {
+  width: 100%;
+}
+
+.product__user-name {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #041d39;
+  margin-top: 20px;
+}
+
+.product__user-rating-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 22px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 208px;
+  position: relative;
+}
+
+.product__user-rating-item {
+  font-size: 34px;
+  color: #7a7a7a;
+}
+
+.product__user-rating-item.active:before {
+  content: "\2605";
+  position: absolute;
+  color: #041d39;
+}
+
+.product__appreciated {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  left: 216px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.product__user-since {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.product__user-sales, .product__user-purchases {
+  margin-top: 38px;
+  font-size: 20px;
+}
+
+.product__user-purchases {
+  margin-top: 16px;
+}
+
+.product__posted-time-and-report {
+  font-size: 20px;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 90px;
+}
+
+.product__report-link {
+  color: #ff6600;
+  margin-top: 18px;
+  text-decoration: underline;
 }
