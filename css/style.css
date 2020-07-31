@@ -1938,6 +1938,7 @@ button {
 .register-banner__slogan {
   font-size: 40px;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .register-banner__orange-text {
@@ -1972,6 +1973,12 @@ button {
   font-weight: bold;
   color: #041d39;
   margin-top: 55px;
+}
+
+.register-banner__cream {
+  background-color: #fef7ec;
+  background-image: url("/images/buyer-man.png");
+  background-position: 184px center;
 }
 
 .breadcrumb {

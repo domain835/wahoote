@@ -1709,6 +1709,7 @@ button {
   &__slogan {
     font-size: 40px;
     font-weight: bold;
+    letter-spacing: 1px;
   }
 
   &__orange-text {
@@ -1746,7 +1747,9 @@ button {
   }
 
   &__cream {
-    
+    background-color: #fef7ec;
+    background-image: url('/images/buyer-man.png');
+    background-position: 184px center;
   }
 }
 
