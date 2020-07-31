@@ -1217,14 +1217,17 @@ button {
   top: 337px;
 }
 
-.profile-menu {
+.page-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.profile-menu__item {
+.page-menu__item {
   font-size: 24px;
   font-weight: 500;
   color: #041d39;
@@ -1232,11 +1235,11 @@ button {
   position: relative;
 }
 
-.profile-menu__item.active {
+.page-menu__item.active {
   font-weight: 700;
 }
 
-.profile-menu__item.active::before {
+.page-menu__item.active::before {
   content: '';
   height: 5px;
   width: 50%;
@@ -1246,7 +1249,7 @@ button {
   left: 0;
 }
 
-.profile-menu__wish-count {
+.page-menu__wish-count {
   height: 21px;
   width: 21px;
   font-size: 15px;
@@ -2327,4 +2330,62 @@ button {
 
 .comments__form-input::placeholder {
   color: #ababab;
+}
+
+.help__title {
+  font-size: 65px;
+  font-weight: 800;
+  color: #ff6600;
+  text-transform: uppercase;
+}
+
+.questions-list {
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.questions-list__item {
+  max-width: 50%;
+  margin-top: 145px;
+  padding: 0 68px;
+}
+
+.questions-list__item-title {
+  font-size: 35px;
+  font-weight: 800;
+  color: #ff6600;
+  text-transform: uppercase;
+}
+
+.questions-list__item-text {
+  font-size: 25px;
+  line-height: 34px;
+  font-weight: 300;
+  margin-top: 86px;
+}
+
+.pagination-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 238px;
+}
+
+.pagination-list__item-link {
+  width: 23px;
+  height: 9px;
+  margin: 0 10px;
+  background-color: #ababab;
+  display: inline-block;
+}
+
+.pagination-list__item-link_active {
+  background-color: #ff6600;
 }

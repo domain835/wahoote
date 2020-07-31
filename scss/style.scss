@@ -1050,9 +1050,10 @@ button {
   }
 }
 
-.profile-menu {
+.page-menu {
   display: flex;
   margin-top: 50px;
+  justify-content: center;
 
   &__item {
     font-size: 24px;
@@ -2051,6 +2052,64 @@ button {
 
     &::placeholder {
       color: #ababab;
+    }
+  }
+}
+
+.help {
+
+  &__title {
+    font-size: 65px;
+    font-weight: 800;
+    color: #ff6600;
+    text-transform: uppercase;
+  }
+}
+
+.questions-list {
+  margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    max-width: 50%;
+    margin-top: 145px;
+    padding: 0 68px;
+  }
+
+  &__item-title {
+    font-size: 35px;
+    font-weight: 800;
+    color: #ff6600;
+    text-transform: uppercase;
+  }
+
+  &__item-text {
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: 300;
+    margin-top: 86px;
+  }
+}
+
+.pagination-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 238px;
+
+  &__item {
+
+  }
+
+  &__item-link {
+    width: 23px;
+    height: 9px;
+    margin: 0 10px;
+    background-color: #ababab;
+    display: inline-block;
+
+    &_active {
+      background-color: #ff6600;
     }
   }
 }
