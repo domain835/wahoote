@@ -1700,7 +1700,17 @@ button {
   padding: 30px 40px !important;
 }
 
-.services__title {
+.products {
+  margin-top: 62px;
+}
+
+.products__bkg-image {
+  position: absolute;
+  top: -60px;
+  right: 32px;
+}
+
+.products__title {
   text-transform: uppercase;
   font-size: 55px;
   font-weight: 800;
@@ -1708,29 +1718,31 @@ button {
   margin-top: 170px;
 }
 
-.services-search {
+.products-search {
   text-align: left;
+  position: relative;
 }
 
-.services-search__title {
+.products-search__title {
   font-size: 55px;
 }
 
-.services-search__number-ads {
+.products-search__number-ads {
   font-size: 25px;
   color: #ababab;
   margin-top: 40px;
   display: inline-block;
 }
 
-.services-search__form {
+.products-search__form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
+  position: relative;
 }
 
-.services-search__input {
+.products-search__input {
   height: 96px;
   width: 518px;
   background-color: #f5f6fd;
@@ -1742,7 +1754,7 @@ button {
   font-size: 20px;
 }
 
-.services-search__select {
+.products-search__select {
   height: 96px;
   width: 476px;
   background-color: #f5f6fd;
@@ -1757,7 +1769,7 @@ button {
   background-repeat: no-repeat;
 }
 
-.services-search__button {
+.products-search__button {
   height: 96px;
   width: 221px;
   background-color: #ff6600;
@@ -1769,6 +1781,8 @@ button {
   background-color: #ffc019;
   height: 830px;
   margin-top: 160px;
+  border-radius: 14px;
+  position: relative;
 }
 
 .small-left-menu {
@@ -1878,6 +1892,26 @@ button {
   bottom: 32px;
 }
 
+.products-list__buttons {
+  margin-top: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.products-list__settings-button {
+  display: block;
+  height: 35px;
+  width: 23px;
+  min-width: 23px;
+  background: url(../images/settings-button-bkg.png);
+  background-repeat: no-repeat;
+  margin-right: 58px;
+}
+
 .products-list__book-button {
   color: #fff;
   background-color: #041d39;
@@ -1887,7 +1921,6 @@ button {
   border-radius: 9px;
   display: inline-block;
   width: 100%;
-  margin-top: 44px;
 }
 
 .register-banner {

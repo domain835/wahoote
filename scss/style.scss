@@ -1493,7 +1493,14 @@ button {
   }
 }
 
-.services {
+.products {
+  margin-top: 62px;
+
+  &__bkg-image {
+    position: absolute;
+    top: -60px;
+    right: 32px;
+  }
 
   &__title {
     text-transform: uppercase;
@@ -1504,8 +1511,9 @@ button {
   }
 }
 
-.services-search {
+.products-search {
   text-align: left;
+  position: relative;
 
   &__title {
     font-size: 55px;
@@ -1521,6 +1529,7 @@ button {
   &__form {
     display: flex;
     margin-top: 50px;
+    position: relative;
   }
 
   &__input {
@@ -1561,6 +1570,8 @@ button {
   background-color: #ffc019;
   height: 830px;
   margin-top: 160px;
+  border-radius: 14px;
+  position: relative;
 }
 
 .small-left-menu {
@@ -1592,7 +1603,6 @@ button {
 .products-list {
   display: flex;
   flex-wrap: wrap;
-  // width: calc(100% + 100px);
   margin: 0 -40px;
 
   &__item {
@@ -1658,7 +1668,19 @@ button {
   }
 
   &__buttons {
-    
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__settings-button {
+    display: block;
+    height: 35px;
+    width: 23px;
+    min-width: 23px;
+    background: url(../images/settings-button-bkg.png);
+    background-repeat: no-repeat;
+    margin-right: 58px;
   }
 
   &__book-button {
@@ -1670,7 +1692,6 @@ button {
     border-radius: 9px;
     display: inline-block;
     width: 100%;
-    margin-top: 44px;
   }
 }
 
@@ -1722,6 +1743,10 @@ button {
     font-weight: bold;
     color: #041d39;
     margin-top: 55px;
+  }
+
+  &__cream {
+    
   }
 }
 
