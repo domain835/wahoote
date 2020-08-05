@@ -40,6 +40,10 @@ button:disabled, input:disabled, textarea:disabled, select:disabled {
   background: none;
 }
 
+fieldset {
+  padding: 0;
+}
+
 body {
   min-width: 320px;
   overflow-x: hidden;

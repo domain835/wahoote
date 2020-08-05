@@ -71,7 +71,7 @@ button {
   background-color: #f6f6f6;
   border-radius: 24px;
   width: 100%;
-  padding-left: 66px;
+  padding-left: 108px;
   height: 55px;
   font-size: 20px;
 }
@@ -95,8 +95,8 @@ button {
 .header__search-button {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateY(-60%);
+          transform: translateY(-60%);
   left: 26px;
   border: none;
   background: none;
@@ -539,41 +539,74 @@ button {
   padding: 14px 16px;
 }
 
-.section-banner .banner {
+.buy-banner {
   background-color: #d6effa;
-  padding: 55px;
-  border-radius: 24px;
+  padding: 112px 108px 110px;
+  border-radius: 50px;
   position: relative;
 }
 
-.section-banner .banner h1 {
-  font-size: 25px;
-  font-weight: normal;
-  line-height: 36px;
-  margin: 0;
+.buy-banner__slogan {
+  font-size: 50px;
+  line-height: 50px;
 }
 
-.section-banner .banner h1 b {
-  font-family: 'Muli Black';
+.buy-banner__title {
+  font-weight: 800;
 }
 
-.section-banner .banner__search {
-  margin-top: 24px;
+.buy-banner__thin-text {
+  font-style: normal;
+  margin-top: 36px;
+  display: inline-block;
 }
 
-.section-banner .banner__search .search {
-  width: 276px;
+.buy-banner__search-form {
+  margin-top: 52px;
 }
 
-.section-banner .banner__search .search__input {
-  height: 34px;
+.buy-banner__search-group {
+  position: relative;
+}
+
+.buy-banner__search-input {
+  height: 68px;
   background-color: #fff;
+  border-radius: 26px;
+  width: 551px;
+  padding-left: 110px;
 }
 
-.section-banner .banner img {
+.buy-banner__search-input::-webkit-input-placeholder {
+  color: #ababab;
+}
+
+.buy-banner__search-input:-ms-input-placeholder {
+  color: #ababab;
+}
+
+.buy-banner__search-input::-ms-input-placeholder {
+  color: #ababab;
+}
+
+.buy-banner__search-input::placeholder {
+  color: #ababab;
+}
+
+.buy-banner__search-button {
   position: absolute;
-  bottom: -44px;
-  right: -24px;
+  left: 28px;
+  font-size: 24px;
+  color: #ff6600;
+  top: 50%;
+  -webkit-transform: translateY(-60%);
+          transform: translateY(-60%);
+}
+
+.buy-banner__image {
+  position: absolute;
+  bottom: -86px;
+  right: -46px;
 }
 
 .title-h2 {

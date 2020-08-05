@@ -58,7 +58,7 @@ button {
     background-color: #f6f6f6;
     border-radius: 24px;
     width: 100%;
-    padding-left: 66px;
+    padding-left: 108px;
     height: 55px;
     font-size: 20px;
 
@@ -71,7 +71,7 @@ button {
   &__search-button {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
     left: 26px;
     border: none;
     background: none;
@@ -431,47 +431,63 @@ button {
   }
 }
 
+.buy-banner {
+  background-color: #d6effa;
+  padding: 112px 108px 110px;
+  border-radius: 50px;
+  position: relative;
 
+  &__slogan {
+    font-size: 50px;
+    line-height: 50px;
+  }
 
-.section-banner {
+  &__title {
+    font-weight: 800;
+  }
 
-  .banner {
-    background-color: #d6effa;
-    padding: 55px;
-    border-radius: 24px;
+  &__thin-text {
+    font-style: normal;
+    margin-top: 36px;
+    display: inline-block;
+  }
+
+  &__search-form {
+    margin-top: 52px;
+  }
+
+  &__search-group {
     position: relative;
+  }
 
-    h1 {
-      font-size: 25px;
-      font-weight: normal;
-      line-height: 36px;
-      margin: 0;
+  &__search-input {
+    height: 68px;
+    background-color: #fff;
+    border-radius: 26px;
+    width: 551px;
+    padding-left: 110px;
 
-      b {
-        font-family: 'Muli Black';
-      }
-    }
-
-    &__search {
-      margin-top: 24px;
-
-      .search {
-        width: 276px;
-
-        &__input {
-          height: 34px;
-          background-color: #fff;
-        }
-      }
-    }
-
-    img {
-      position: absolute;
-      bottom: -44px;
-      right: -24px;
+    &::placeholder {
+      color: #ababab;
     }
   }
+
+  &__search-button {
+    position: absolute;
+    left: 28px;
+    font-size: 24px;
+    color: #ff6600;
+    top: 50%;
+    transform: translateY(-60%);
+  }
+
+  &__image {
+    position: absolute;
+    bottom: -86px;
+    right: -46px;
+  }
 }
+
 
 .title-h2 {
   font-size: 27.5px;

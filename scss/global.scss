@@ -40,6 +40,10 @@ button, input, textarea, select {
   }
 }
 
+fieldset {
+  padding: 0;
+}
+
 body {
   min-width: 320px;
   overflow-x: hidden;
