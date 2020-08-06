@@ -636,7 +636,6 @@ button {
 
 .preview-categories__list {
   padding: 60px 42px;
-  margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -704,35 +703,35 @@ button {
 }
 
 .preview-categories__item-image.hair-salon {
-  background-position-x: -531px;
+  background-position-x: -1215px;
 }
 
 .preview-categories__item-image.plumber {
-  background-position-x: -597px;
+  background-position-x: -1371px;
 }
 
 .preview-categories__item-image.floor-cleaner {
-  background-position-x: -660px;
+  background-position-x: -1522px;
 }
 
 .preview-categories__item-image.dj {
-  background-position-x: -731px;
+  background-position-x: -1678px;
 }
 
 .preview-categories__item-image.chef {
-  background-position-x: -806px;
+  background-position-x: -1836px;
 }
 
 .preview-categories__item-image.car-repairs {
-  background-position-x: -877px;
+  background-position-x: -2005px;
 }
 
 .preview-categories__item-image.spa {
-  background-position-x: -943px;
+  background-position-x: -2158px;
 }
 
 .preview-categories__item-image.therapy-session {
-  background-position-x: -1009px;
+  background-position-x: -2310px;
 }
 
 .preview-categories__item-title {
@@ -749,130 +748,6 @@ button {
   text-decoration: none;
   color: #ff6600;
   font-size: 15px;
-}
-
-.section-discover .discover-menu {
-  list-style: none;
-  font-size: 12.5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 31px;
-}
-
-.section-discover .discover-menu__item {
-  padding-bottom: 10px;
-}
-
-.section-discover .discover-menu__item:not(:first-child) {
-  margin-left: 26px;
-}
-
-.section-discover .discover-menu__item a {
-  text-decoration: none;
-  color: #ababab;
-  font-weight: bold;
-}
-
-.section-discover .discover-menu__item.active {
-  background: url(../images/menu-underline.png) no-repeat;
-  background-position: bottom;
-}
-
-.section-discover .discover-menu__item.active a {
-  color: #000;
-  position: relative;
-}
-
-.section-discover .discover {
-  list-style: none;
-  margin-top: 58px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.section-discover .discover__item {
-  width: 124px;
-}
-
-.section-discover .discover__item .preview {
-  background-color: #ffe8d9;
-  border-radius: 8px;
-  padding: 108px 10px 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
-}
-
-.section-discover .discover__item .preview__image {
-  position: absolute;
-  top: -18px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-
-.section-discover .discover__item .preview__name {
-  font-size: 13px;
-  font-weight: bold;
-  color: #000;
-}
-
-.section-discover .discover__item .preview__price {
-  font-size: 11px;
-  color: #ababab;
-  margin-top: 8px;
-}
-
-.section-discover .discover__item .preview__like {
-  width: 20px;
-  height: 20px;
-  background: url(../images/discover-icons.png);
-  border: none;
-  cursor: pointer;
-  position: absolute;
-  right: 10px;
-  bottom: 16px;
-}
-
-.section-discover .discover__item .buttons-panel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 22px;
-}
-
-.section-discover .discover__item .buttons-panel .settings {
-  display: block;
-  height: 18px;
-  width: 18px;
-  background: url(../images/discover-icons.png);
-  background-position-x: -34px;
-}
-
-.section-discover .discover__item .buttons-panel .buy-now {
-  color: #fff;
-  background-color: #041d39;
-  padding: 8px 20px;
-  text-decoration: none;
-  font-size: 10.5px;
-  font-weight: bold;
-  border-radius: 5px;
 }
 
 .section-near-you .near-you {
@@ -1968,6 +1843,7 @@ button {
   border-radius: 9px;
   display: inline-block;
   width: 100%;
+  text-align: center;
 }
 
 .register-banner {
