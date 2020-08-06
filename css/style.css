@@ -750,21 +750,31 @@ button {
   font-size: 15px;
 }
 
-.section-near-you .near-you {
+.near-you {
+  padding: 0 42px;
+  margin-top: 96px;
+}
+
+.near-you__title {
+  font-size: 55px;
+  font-weight: 800;
+}
+
+.near-you__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 46px;
+  margin-top: 96px;
 }
 
-.section-near-you .near-you .near-you__item {
+.near-you__item {
   list-style: none;
 }
 
-.section-near-you .near-you .near-you__item a {
+.near-you__item-link {
   text-decoration: none;
   color: #000;
   display: -webkit-box;
@@ -779,14 +789,15 @@ button {
           align-items: center;
 }
 
-.section-near-you .near-you .near-you__item a .title-h3 {
-  margin-top: 18px;
+.near-you__item-title {
+  font-size: 30px;
+  margin-top: 34px;
 }
 
-.section-near-you .near-you .near-you__item a p {
-  font-size: 7.5px;
+.near-you__item-text {
+  font-size: 15px;
   font-weight: bolder;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 
 .section-partner .partner {
