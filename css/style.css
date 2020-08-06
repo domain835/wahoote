@@ -626,8 +626,17 @@ button {
   letter-spacing: 6px;
 }
 
-.section-categories-services .categories {
-  padding: 30PX 25px;
+.preview-categories {
+  margin-top: 126px;
+}
+
+.preview-categories__title {
+  font-size: 30px;
+}
+
+.preview-categories__list {
+  padding: 60px 42px;
+  margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -637,10 +646,10 @@ button {
   position: relative;
 }
 
-.section-categories-services .categories__item {
+.preview-categories__item {
   background-color: #f6f6f6;
-  padding: 15px;
-  border-radius: 14px;
+  padding: 36px 0 25px;
+  border-radius: 36px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -648,96 +657,98 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
-  font-size: 9px;
   color: #000;
-  height: 106px;
-  width: 80px;
+  width: 161px;
 }
 
-.section-categories-services .categories__item .image {
-  height: 52px;
-  width: 100%;
-  background: url(../images/categories-and-services-sprite.png) no-repeat;
+.preview-categories__item-image {
+  height: 110px;
+  width: 102px;
+  background: url(../images/categories-and-services-icons.png) no-repeat;
 }
 
-.section-categories-services .categories__item .image.baby-and-child {
-  background-position-x: 2px;
+.preview-categories__item-image.baby-and-child {
+  background-position-x: 7px;
 }
 
-.section-categories-services .categories__item .image.fashion-and-accessories {
-  background-position-x: -54px;
+.preview-categories__item-image.fashion-and-accessories {
+  background-position-x: -114px;
 }
 
-.section-categories-services .categories__item .image.home-and-garden {
-  background-position-x: -104px;
+.preview-categories__item-image.home-and-garden {
+  background-position-x: -227px;
 }
 
-.section-categories-services .categories__item .image.sports-and-leisure {
-  background-position-x: -166px;
+.preview-categories__item-image.sports-and-leisure {
+  background-position-x: -374px;
 }
 
-.section-categories-services .categories__item .image.games-and-consoless {
-  background-position-x: -240px;
+.preview-categories__item-image.games-and-consoless {
+  background-position-x: -537px;
 }
 
-.section-categories-services .categories__item .image.home-appliances {
-  background-position-x: -314px;
+.preview-categories__item-image.home-appliances {
+  background-position-x: -713px;
 }
 
-.section-categories-services .categories__item .image.property {
-  background-position-x: -386px;
+.preview-categories__item-image.property {
+  background-position-x: -874px;
 }
 
-.section-categories-services .categories__item .image.books-films-and-music {
-  background-position-x: -459px;
+.preview-categories__item-image.books-films-and-music {
+  background-position-x: -1042px;
 }
 
-.section-categories-services .categories__item .image.hair-salon {
+.preview-categories__item-image.hair-salon {
   background-position-x: -531px;
 }
 
-.section-categories-services .categories__item .image.plumber {
+.preview-categories__item-image.plumber {
   background-position-x: -597px;
 }
 
-.section-categories-services .categories__item .image.floor-cleaner {
+.preview-categories__item-image.floor-cleaner {
   background-position-x: -660px;
 }
 
-.section-categories-services .categories__item .image.dj {
+.preview-categories__item-image.dj {
   background-position-x: -731px;
 }
 
-.section-categories-services .categories__item .image.chef {
+.preview-categories__item-image.chef {
   background-position-x: -806px;
 }
 
-.section-categories-services .categories__item .image.car-repairs {
+.preview-categories__item-image.car-repairs {
   background-position-x: -877px;
 }
 
-.section-categories-services .categories__item .image.spa {
+.preview-categories__item-image.spa {
   background-position-x: -943px;
 }
 
-.section-categories-services .categories__item .image.therapy-session {
+.preview-categories__item-image.therapy-session {
   background-position-x: -1009px;
 }
 
-.section-categories-services .categories__item span {
+.preview-categories__item-title {
+  font-size: 18px;
   display: inline-block;
   text-align: center;
   line-height: normal;
 }
 
-.section-categories-services .categories__load-more {
+.preview-categories__load-more {
   position: absolute;
   bottom: 0;
   right: 0;
   text-decoration: none;
   color: #ff6600;
-  font-size: 7.5px;
+  font-size: 15px;
 }
 
 .section-discover .discover-menu {

@@ -507,112 +507,118 @@ button {
 }
 
 
-.section-categories-services {
+.preview-categories {
+  margin-top: 126px;
 
-  .categories {
-    padding: 30PX 25px;
+  &__title {
+    font-size: 30px;
+  }
+
+  &__list {
+    padding: 60px 42px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     position: relative;
+  }
 
-    &__item {
-      background-color: #f6f6f6;
-      padding: 15px;
-      border-radius: 14px;
-      display: flex;
-      flex-direction: column;
-      text-decoration: none;
-      font-size: 9px;
-      color: #000;
-      height: 106px;
-      width: 80px;
+  &__item {
+    background-color: #f6f6f6;
+    padding: 36px 0 25px;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    width: 161px;
+  }
 
-      .image {
-        height: 52px;
-        width: 100%;
-        background: url(../images/categories-and-services-sprite.png) no-repeat;
+  &__item-image {
+    height: 110px;
+    width: 102px;
+    background: url(../images/categories-and-services-icons.png) no-repeat;
 
-        &.baby-and-child {
-          background-position-x: 2px;
-        }
-
-        &.fashion-and-accessories {
-          background-position-x: -54px;
-        }
-
-        &.home-and-garden {
-          background-position-x: -104px;
-        }
-
-        &.sports-and-leisure {
-          background-position-x: -166px;
-        }
-
-        &.games-and-consoless {
-          background-position-x: -240px;
-        }
-
-        &.home-appliances {
-          background-position-x: -314px;
-        }
-
-        &.property {
-          background-position-x: -386px;
-        }
-
-        &.books-films-and-music {
-          background-position-x: -459px;
-        }
-
-
-        &.hair-salon {
-          background-position-x: -531px;
-        }
-
-        &.plumber {
-          background-position-x: -597px;
-        }
-
-        &.floor-cleaner {
-          background-position-x: -660px;
-        }
-
-        &.dj {
-          background-position-x: -731px;
-        }
-
-        &.chef {
-          background-position-x: -806px;
-        }
-
-        &.car-repairs {
-          background-position-x: -877px;
-        }
-
-        &.spa {
-          background-position-x: -943px;
-        }
-
-        &.therapy-session {
-          background-position-x: -1009px;
-        }
-      }
-
-      span {
-        display:inline-block;
-        text-align: center;
-        line-height: normal;
-      }
+    &.baby-and-child {
+      background-position-x: 7px;
     }
 
-    &__load-more {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      text-decoration: none;
-      color: #ff6600;
-      font-size: 7.5px;
+    &.fashion-and-accessories {
+      background-position-x: -114px;
     }
+
+    &.home-and-garden {
+      background-position-x: -227px;
+    }
+
+    &.sports-and-leisure {
+      background-position-x: -374px;
+    }
+
+    &.games-and-consoless {
+      background-position-x: -537px;
+    }
+
+    &.home-appliances {
+      background-position-x: -713px;
+    }
+
+    &.property {
+      background-position-x: -874px;
+    }
+
+    &.books-films-and-music {
+      background-position-x: -1042px;
+    }
+
+
+    &.hair-salon {
+      background-position-x: -531px;
+    }
+
+    &.plumber {
+      background-position-x: -597px;
+    }
+
+    &.floor-cleaner {
+      background-position-x: -660px;
+    }
+
+    &.dj {
+      background-position-x: -731px;
+    }
+
+    &.chef {
+      background-position-x: -806px;
+    }
+
+    &.car-repairs {
+      background-position-x: -877px;
+    }
+
+    &.spa {
+      background-position-x: -943px;
+    }
+
+    &.therapy-session {
+      background-position-x: -1009px;
+    }
+  }
+
+  &__item-title {
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    line-height: normal;
+  }
+
+  &__load-more {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    color: #ff6600;
+    font-size: 15px;
   }
 }
 
