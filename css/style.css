@@ -205,6 +205,10 @@ button {
   color: #000;
 }
 
+.footer__no-border {
+  border: none;
+}
+
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -867,41 +871,43 @@ button {
   margin-top: 60px;
 }
 
-.section-book-anywhere {
+.book-anywhere {
+  margin-top: 183px;
   background-color: #d9ffec;
-  margin-top: 60px;
 }
 
-.section-book-anywhere .book-anywhere {
-  padding: 10px 0;
+.book-anywhere__inner {
   position: relative;
-  height: 164px;
+  height: 451px;
 }
 
-.section-book-anywhere .book-anywhere__img {
+.book-anywhere__image-bkg {
   position: absolute;
   left: 0;
-  bottom: -30px;
+  bottom: 0;
 }
 
-.section-book-anywhere .book-anywhere__title {
+.book-anywhere__title {
   font-family: 'Muli ExtraBold';
-  font-size: 25px;
+  font-size: 50px;
+  line-height: 75px;
   position: absolute;
-  left: 50%;
-  line-height: 34px;
+  left: 840px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
-.section-book-anywhere .book-anywhere__title b {
+.book-anywhere__orange-text {
   color: #ff6600;
 }
 
-.section-book-anywhere .book-anywhere__title i {
+.book-anywhere__small-text {
   font-style: normal;
-  font-size: 15px;
+  font-size: 30px;
 }
 
-.section-book-anywhere .book-anywhere__title img {
+.book-anywhere__banner-image {
   display: inherit;
 }
 
