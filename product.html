@@ -4,130 +4,188 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Wahoote</title>
+    <title>Product</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/product-style.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-
+    
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <div class="header">
+        <div class="header__inner">
           <a href="" class="header__logo">
             <img src="images/logo.png" alt="">
           </a>
           <div class="header__nav-menu">
-            <img src="images/nav-menu.png" alt="">
+            <button class="header__categories-button"></button>
             <span>Categories</span>
           </div>
           <form class="header__search">
-            <fieldset class="search">
-              <input type="text" placeholder="Product and Services" class="search__input">
-              <button type="submit" class="search__button">
+            <fieldset class="header__search-group">
+              <input class="header__search-input" type="text" placeholder="Product and Services">
+              <button class="header__search-button" type="submit" >
                 <i class="fa fa-search"></i>
               </button>
             </fieldset>
           </form>
           <button class="header__sell-button">Sell now</button>
           <div class="header__user">
-            <img src="images/no-avatar.png" alt="" class="avatar">
-            <span class="status">Hi, Floyd!</span>
+            <img class="header__user-avatar" src="images/avatar-floyd-49x49.png" alt="">
+            <span class="header__user-greeting">Hi, Floyd!</span>
           </div>
           <ul class="header__main-menu">
-            <li>
-              <a href="">Contact</a>            
+            <li class="header__main-menu-item">
+              <a href="#">
+                <img src="/images/cart.png" alt="">
+              </a>
             </li>
-            <li>
-              <a href="">Help</a>
+            <li class="header__main-menu-item">
+              <a href="#">Contact</a>            
             </li>
           </ul>
         </div>
       </div>
     </header>
-
-    <div class="container">
-      <ul class="breadcrumb">
-        <li class="breadcrumb__item">Home</li>
-        <li class="breadcrumb__item">Furniture</li>
-        <li class="breadcrumb__item">Sofa</li>
-      </ul>
-    </div>
-    
-    <section class="section-product">
+    <section class="page-section product">
       <div class="container">
-        <div class="product">
-          <div class="product__gallery">
-            <div class="fotorama" data-nav="thumbs" data-width="100%" data-thumbborderwidth="3">
-              <img src="images/plumber-service.png">
-              <img src="/images/no-avatar.png">
-              <img src="/images/man.png">
-              <img src="/images/macBook-pro.png">
+        <ul class="breadcrumb">
+          <li class="breadcrumb__item">
+            <a class="breadcrumb__link" href="">Home/</a>
+          </li>
+          <li class="breadcrumb__item">
+            <a class="breadcrumb__link" href="">Furniture/</a>
+          </li>
+          <li class="breadcrumb__item">
+            <a class="breadcrumb__link" href="">Sofa</a>
+          </li>
+        </ul>
+        <div class="product__inner">
+          <div class="product__column">
+            <div class="product__gallery">
+              <img src="/images/product-gallery-plug-sofa.jpg" alt="">
             </div>
           </div>
-          <div class="product__info">
-            <div class="rating">
-              <div class="rating__stars"></div>
-              <a href="#" class="rating__review">Reviews</a>
+  
+          <div class="product__column">
+            <div class="product__info">
+              <div class="product__info-rating">
+                <ul class="product__info-rating-list">
+                  <li class="product__info-rating-item product__info-rating-item_active">☆</li>
+                  <li class="product__info-rating-item product__info-rating-item_active">☆</li>
+                  <li class="product__info-rating-item product__info-rating-item_active">☆</li>
+                  <li class="product__info-rating-item">☆</li>
+                  <li class="product__info-rating-item">☆</li>
+                </ul>
+                <a href="#" class="product__info-review-link">Reviews</a>
+              </div>
+              <h2 class="product__info-title">Sofa</h2>
+              <div class="product__info-price">
+                <span class="product__info-price-one">$699</span>
+                <span class="product__info-price-two">$899</span>
+              </div>
+              <div class="product__count">
+                <button class="product__count-button">-</button>
+                <span class="product__count-value">1</span>
+                <button class="product__count-button">+</button>
+              </div>
+              <div class="product__actions">
+                <button class="btn dark-blue product__buy-button">buy now</button>
+                <button class="btn gray product__wish-button">ADD TO WISH LIST</button>
+              </div>
             </div>
-            <h1 class="title">SOFA</h1>
-            <ul class="price">
-              <li class="price__item active">$699</li>
-              <li class="price__item">$899</li>
-            </ul>
-            <div class="count">
-              <button class="count__reduce">-</button>
-              <span>1</span>
-              <button class="count__increase">+</button>
-            </div>
-            <div class="actions">
-              <button class="actions__buy">BUY NOW</button>
-              <button class="actions__wish">ADD TO WISH LIST</button>
-            </div>
+
+            
           </div>
         </div>
-      </div>
-    </section>
-    <section class="section-description-product">
-      <div class="container">
-        <div class="description-product">
-          <div class="description-product__item">
-            <h3 class="title">ITEM Description</h3>
-            <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
+        <div class="product__inner">
+          <div class="product__column">
+            <h3 class="product__description-title">ITEM Description</h3>
+            <p class="product__description-text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
               diam nonumy eirmod tempor invidunt ut labore et dolore magna 
               aliquyam erat, sed diam voluptua. At vero eos et accusam et 
               justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
               takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum 
               dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
               eirmod tempor invidunt ut labore et dolore magna aliquyam 
-              erat.</p>
+              erat.
+            </p>
           </div>
-          <div class="description-product__seller">
-            <div class="avatar">
-              <img src="" alt="">
-              <span class="name"></span>
-              <div class="rating">
-                <div class="rating__stars"></div>
-                <a href="#" class="rating__review">Reviews</a>
+          <div class="product__column">
+            <div class="product__user">
+              <div class="product__user-avatar">
+                <img class="product__user-avatar-img" src="/images/avatar-anna-joe.png" alt="">
               </div>
+              <span class="product__user-name">ANNA JOE</span>
+              <ul class="product__user-rating-list">
+                <li class="product__user-rating-item active">☆</li>
+                <li class="product__user-rating-item active">☆</li>
+                <li class="product__user-rating-item active">☆</li>
+                <li class="product__user-rating-item active">☆</li>
+                <li class="product__user-rating-item">☆</li>
+                <span class="product__appreciated">(320)</span>
+              </ul>
+
+              <span class="product__user-since">SINCE 2016</span>
+              <span class="product__user-sales">349 - SALES</span>
+              <span class="product__user-purchases">16 - PURCHASES</span>
             </div>
           </div>
+          
         </div>
+        <div class="product__posted-time-and-report">
+          <span class="product__posted-time">AD. POSTED ON <time>21/07/06</time></span>
+          <a class="product__report-link" href="">REPORT THIS ITEM</a>
+        </div>
+        <h4 class="product__related-title">RELATED PRODUCTS</h4>
+        <ul class="products-list">
+          <li class="products-list__item products-list__item">
+            <a class="products-list__item-link" href="#">
+              <div class="products-list__inner">
+                <div class="products-list__preview products-list__preview_cream products-list__preview_related">
+                  <img class="products-list__preview-image" src="images/galaxy-s10.png" alt="" >
+                  <h3 class="products-list__preview-title">Galaxy S10</h3>
+                  <span class="products-list__preview-price">$699</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="products-list__item">
+            <a class="products-list__item-link" href="#">
+              <div class="products-list__inner">
+                <div class="products-list__preview products-list__preview_cream products-list__preview_related">
+                  <img class="products-list__preview-image" src="images/galaxy-s10.png" alt="" >
+                  <h3 class="products-list__preview-title">Galaxy S10</h3>
+                  <span class="products-list__preview-price">$699</span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="products-list__item">
+            <a class="products-list__item-link" href="#">
+              <div class="products-list__inner">
+                <div class="products-list__preview products-list__preview_cream products-list__preview_related">
+                  <img class="products-list__preview-image" src="images/galaxy-s10.png" alt="" >
+                  <h3 class="products-list__preview-title">Galaxy S10</h3>
+                  <span class="products-list__preview-price">$699</span>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+
       </div>
     </section>
-    <footer>
+    <footer class="footer">
       <div class="container">
-        <div class="footer">
+        <div class="footer__inner">
           <div class="social">
-            <img src="images/wahoote-tile.png" alt="" class="footer__img">
-            <ul class="socials">
+            <img class="social__banner" src="images/wahoote-tile.png" alt="">
+            <ul class="social__list">
               <li class="social__item">
                 <a href="#">
                   <i class="fa fa-facebook-f"></i>
@@ -150,44 +208,43 @@
               </li>
             </ul>
           </div>
-          
-          <ul class="footer-menu">
-            <li class="footer-menu__item">
-              <h5>Contact</h5>
-              <ul>
-                <li class="mail">info@wahoote.com</li>
-                <li>(+420)234 567 891</li>
-                <li>(+420)987 452 158</li>
-                <li>(+420)987 654 123</li>
+          <ul class="footer__nav">
+            <li class="footer__col-item">
+              <h5 class="footer__nav-title">Contact</h5>
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item mail">info@wahoote.com</li>
+                <li class="footer__nav-item">(+420)234 567 891</li>
+                <li class="footer__nav-item">(+420)987 452 158</li>
+                <li class="footer__nav-item">(+420)987 654 123</li>
               </ul>
             </li>
-            <li class="footer-menu__item">
-              <h5>About us</h5>
-              <ul>
-                <li>
+            <li class="footer__col-item">
+              <h5 class="footer__nav-title">About us</h5>
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
                   <a href="#">Services</a>
                 </li>
-                <li>
+                <li class="footer__nav-item">
                   <a href="#">Terms & Conditions</a>
                 </li>
-                <li>
+                <li class="footer__nav-item">
                   <a href="#">Buyer Protection</a>
                 </li>
               </ul>
             </li>
-            <li class="footer-menu__item">
-              <h5>Services</h5>
-              <ul>
-                <li>
+            <li class="footer__col-item">
+              <h5 class="footer__nav-title">Services</h5>
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
                   <a href="#">Services</a>
                 </li>
-                <li>
+                <li class="footer__nav-item">
                   <a href="#">For Partners</a>
                 </li>
-                <li>
+                <li class="footer__nav-item">
                   <a href="#">News & Press</a>
                 </li>
-                <li>
+                <li class="footer__nav-item">
                   <a href="#">Help Center</a>
                 </li>
               </ul>
@@ -197,6 +254,7 @@
       </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html> 

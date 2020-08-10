@@ -1441,6 +1441,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -40px;
+  justify-content: center;
 
   &__item {
     width: 20%;
@@ -1471,6 +1472,10 @@ button {
 
     &_turquoise {
       background-color: #def1ec;
+    }
+
+    &_related {
+      text-align: center;
     }
   }
 
@@ -1645,7 +1650,8 @@ button {
   }
 
   &__info-rating-item {
-    font-size: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
 
     &_active {
 
@@ -1672,6 +1678,11 @@ button {
     font-size: 30px;
     font-weight: bold;
     color: #041d39;
+  }
+
+  &__info-price-two {
+    font-size: 20px;
+    color: #ababab;
   }
 
   &__actions {
@@ -1709,14 +1720,14 @@ button {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: 190px;
+    margin-top: 80px;
   }
 
   &__description-text {
     font-size: 20px;
     font-weight: 300;
     letter-spacing: 1px;
-    margin-top: 90px;
+    margin-top: 80px;
     line-height: 30px;
     max-width: 700px;
   }
@@ -1804,6 +1815,21 @@ button {
     color: #ff6600;
     margin-top: 18px;
     text-decoration: underline;
+  }
+
+  &__count {
+    margin-top: 270px;
+    font-size: 30px;
+  }
+
+  &__count-value {
+    font-weight: bold;
+  }
+
+  &__related-title {
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 170px;
   }
 }
 
